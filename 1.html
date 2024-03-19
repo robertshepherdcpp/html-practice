@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: #1ECBCE
+        }
+        #bck {
+            padding: 10px;
+            margin: 25%;
+            size: 50%;
+            border: 15px;
+        }
+    </style>
+    <style>
+        function clicked_button()
+        {
+            const elem = document.getElementById("toChange");
+            elem.style.color = 'red';
+        }
+    </style>
+    <script src="file.js"></script>
+</head>
+<body>
+    <p>hi</p>
+    <ul>
+        <li id="bck">This is an element</li>
+        <li id="bck">This is another element</li>  
+    </ul>
+
+    <input type="text" id="name"/>
+    <button type="button" onclick="clicked_button();">Click Me!</button>
+</body>
+</html>
